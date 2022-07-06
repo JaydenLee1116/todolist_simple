@@ -18,7 +18,7 @@ body {
   height: 700px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   background-color: #333333;
 }
@@ -32,5 +32,38 @@ body {
 }
 
 .wrapper__body {
-  background-color: #747474;
+  height: 600px;
+  width: 500px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  color: whitesmoke;
+}
+
+.wrapper__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.input {
+  width: 400px;
+}
+
+.make__list__btn {
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
 }
